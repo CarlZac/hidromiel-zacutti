@@ -1,0 +1,32 @@
+.form{
+    section{
+        width: 50%;
+        @media (max-width: 992px){
+            width: 75%;
+        }
+        @media (max-width: 600px){
+            width: 100%;
+        }
+        article{
+            width: 100%;
+            height: auto;
+            overflow: auto;
+            margin: 10px auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            @include texto($textStand, 5rem, $fontMain);
+            color:  map-get($map:$paleta,$key:'colorSilver');
+            legend{
+                color:  map-get($map:$paleta,$key:'colorGold');
+                @include texto($textStand, 3.5rem, $fontSecondary);
+            }
+            form{
+                background-color: map-get($map:$paleta,$key:'colorDark');
+                padding: 10px 15px;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

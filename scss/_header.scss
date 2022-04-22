@@ -1,0 +1,39 @@
+.encabezado{
+    #iso{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    #nav{
+        background-color:  map-get($map:$paleta,$key:'colorDark'); 
+        position: sticky; 
+        ul{
+            li{
+                a{
+                    color:  map-get($map:$paleta,$key:'colorGold');
+                    text-decoration: none;
+                    font-size: $textLg;
+                    font-family: $fontMain;
+                    margin-left: 10px;
+                    
+                    &:hover{
+                        font-weight: 600;
+                        color:  map-get($map:$paleta,$key:'colorSilver');
+                    }
+                }    
+            }
+        }
+    }     
+    @media (max-width: 368px){
+        #iso{
+            display: none;
+        }
+        .navbar-brand{
+            width: 70%;
+        }
+    }
+    @media (min-width: 369px){
+        #logo{
+            display: none;
+        }
+    }
+}

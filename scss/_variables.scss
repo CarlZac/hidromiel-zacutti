@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,800&display=swap');
+
+// Colores
+
+$primaryColor: #BA9C53;
+$secondaryColor: #879492;
+$darkColor: #242323;
+
+// Mapa
+
+$paleta:(
+	'colorGold': #BA9C53,
+	'colorSilver': #879492,
+	'colorDark': #242323,
+	'colorIvory': #FFFFF0,
+	);
+
+// Formatos de Texto
+
+$fontMain: 'Montserrat', sans-serif;
+$fontSecondary: 'Cinzel', serif;
+
+$textSm: 1rem;
+$textMd: 1.3rem;
+$textStand: 1.5rem;
+$textLg: 2rem;
+$textXl: 2.5rem;
+
+// Mixin
+
+@mixin texto($font-size, $line-height, $font-family){
+	font-size: $font-size;
+	line-height: $line-height;
+	font-family: $font-family;
+}

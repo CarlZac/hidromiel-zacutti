@@ -1,0 +1,24 @@
+.box{
+    section{
+        margin: 15px 15px;
+        @media (min-width: 500px){
+            margin: 20px 50px;
+        }
+        @media (min-width: 768px){
+            margin: 20px 80px;
+        }
+        article{
+            line-height: 5rem;
+            overflow: auto;
+            margin: 15px auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            border: solid 1.5px  map-get($map:$paleta,$key:'colorSilver');
+            img{
+                width: 90%;
+            }
+        }
+    }
+}
