@@ -56,6 +56,10 @@
     background-color:  map-get($map:$paleta,$key:'colorSilver');
 }
 
+.carrito{
+    margin-right: 10px;
+}
+
 #imgResp{
     width: 50%;
     height: auto;

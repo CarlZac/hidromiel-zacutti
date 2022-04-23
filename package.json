@@ -11,6 +11,7 @@
   "author": "Charlie",
   "license": "ISC",
   "dependencies": {
+    "bootstrap-icons": "^1.8.1",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }

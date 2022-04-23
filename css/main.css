@@ -78,6 +78,9 @@ html {
 .bgSilver {
   background-color: #879492; }
 
+.carrito {
+  margin-right: 10px; }
+
 #imgResp {
   width: 50%;
   height: auto; }
@@ -213,3 +216,32 @@ html {
   padding: 15px 0; }
   .pie a {
     text-decoration: none; }
+
+.error img {
+  width: 50%;
+  margin-top: 30px; }
+  @media (max-width: 1024px) {
+    .error img {
+      width: 70%; } }
+  @media (max-width: 768px) {
+    .error img {
+      width: 80%; } }
+  @media (max-width: 500px) {
+    .error img {
+      width: 100%; } }
+
+.error a {
+  text-decoration: none;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px; }
+  @media (max-width: 768px) {
+    .error a {
+      width: 30%; } }
+  @media (max-width: 500px) {
+    .error a {
+      width: 50%; } }
